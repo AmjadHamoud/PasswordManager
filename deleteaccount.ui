@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deleteaccount</class>
+ <widget class="QDialog" name="deleteaccount">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>433</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+
+	Background-color:#1B1464;
+
+}</string>
+  </property>
+  <widget class="QLineEdit" name="Passedit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>321</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	
+	background-color: #30336b;
+	border-bottom: 4px solid #686de0;
+	
+	border-radius: 5px;
+	
+}
+QLineEdit::Focus
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+	color: #95afc0;
+}
+QLineEdit::Hover
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="passwordlabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>61</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DeleteAc">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+
+	background-color: #575fcf;
+	border-bottom: 2px solid #3c40c6;
+	
+	border-radius: 4px;
+}
+QPushButton::Hover
+{
+	background-color : #3c40c6;
+	border-bottom: 2px solid #575fcf;
+	
+	border-radius: 4px;
+}
+QPushButton::pressed
+{
+	background-color: #575fcf;
+	border-bottom: 2px solid #3c40c6;
+	
+	border-radius: 4px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Delete Acount</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="SureLabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>301</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Are you Sure you want to delete</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>PassManagerIcon.png</file>
+        <file>PassManagerIcon.ico</file>
+    </qresource>
+</RCC>

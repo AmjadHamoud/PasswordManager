@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signup</class>
+ <widget class="QDialog" name="signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>212</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+
+	Background-color:#1B1464;
+
+}</string>
+  </property>
+  <widget class="QLineEdit" name="PasswordEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>381</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	
+	background-color: #30336b;
+	border-bottom: 4px solid #686de0;
+	
+	border-radius: 5px;
+	
+}
+QLineEdit::Focus
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+	color: #95afc0;
+}
+QLineEdit::Hover
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Confirm_Button">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>170</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+
+	background-color: #575fcf;
+	border-bottom: 2px solid #3c40c6;
+	
+	border-radius: 4px;
+}
+QPushButton::Hover
+{
+	background-color : #3c40c6;
+	border-bottom: 2px solid #575fcf;
+	
+	border-radius: 4px;
+}
+QPushButton::pressed
+{
+	background-color: #575fcf;
+	border-bottom: 2px solid #3c40c6;
+	
+	border-radius: 4px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Password_Label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="RePasswordEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>381</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	
+	background-color: #30336b;
+	border-bottom: 4px solid #686de0;
+	
+	border-radius: 5px;
+	
+}
+QLineEdit::Focus
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+	color: #95afc0;
+}
+QLineEdit::Hover
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CheckPassword_Label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rewrite Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="UserNamelabel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Your Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="UserNameEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>381</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	
+	background-color: #30336b;
+	border-bottom: 4px solid #686de0;
+	
+	border-radius: 5px;
+	
+}
+QLineEdit::Focus
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+	color: #95afc0;
+}
+QLineEdit::Hover
+{
+	background-color: #130f40;
+	border-bottom: 4px solid #4834d4;
+	
+	border-radius: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Guideline">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>291</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter Your Name and Password</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
